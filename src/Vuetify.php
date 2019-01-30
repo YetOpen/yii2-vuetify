@@ -2,11 +2,11 @@
 /**
  * @link https://github.com/Vaxa/yii2-vuetify
  * @copyright Copyright (c) 2018 Anton Kazarinov
- * @forked Vlad Shashkov
+ * @fork Vlad Shashkov
  * @license https://github.com/Vaxa/yii2-vuetify/blob/master/LICENSE
  */
 
-namespace myaza\vuetify;
+namespace vaxa\vuetify;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
