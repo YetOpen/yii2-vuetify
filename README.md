@@ -8,6 +8,9 @@
 
 This is the <a href="//vuetifyjs.com" target="_blank">Vuetify</a> extension for Yii2.
 
+# Requirements
+<a href="//github.com/antkaz/yii2-vue" target="_blank" rel="external">antkaz/yii2-vue</a>
+
 # Installation
 
 The preferred way to install this extension is through composer.
@@ -26,9 +29,5 @@ or add
 
 to the **require** section of your `composer.json` file.
 
-## Usage
 
-After installing the extension, just use it in your code:
-
-```
 
