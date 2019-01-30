@@ -30,7 +30,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "myaza\\vuetify\\": "src"
+      "vaxa\\vuetify\\": "src"
     }
   }
 }
