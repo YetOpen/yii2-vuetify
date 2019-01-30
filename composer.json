@@ -20,7 +20,7 @@
   ],
   "require": {
     "yiisoft/yii2": "~2.0.14",
-    "npm-asset/vuetify": "~2.5.13"
+    "npm-asset/vuetify": "1.4.4"
   },
   "repositories": [
     {
