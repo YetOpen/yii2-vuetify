@@ -5,37 +5,41 @@
  * @license https://github.com/antkaz/yii2-vue/blob/master/LICENSE
  */
 
-namespace antkaz\vue;
+namespace myaza\vuetify;
 
 use yii\web\AssetBundle;
 use yii\web\View;
 
 /**
- * Class VueAsset
+ * Class VuetifyAsset
  *
- * Registers Vue.js
+ * Registers Vuetify
  *
- * @author Anton Kazarinov <askazarinov@gmail.com>
- * @package antkaz\vue
+ * @author Anton Kazarinov <askazarinov@gmail.com> and Vlad Shashkov
+ * @package myaza\vuetify
  */
-class VueAsset extends AssetBundle
+class VuetifyAsset extends AssetBundle
 {
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@npm/vue/dist';
+    public $sourcePath = '@npm/vuetify/dist';
 
     /**
      * @inheritdoc
      */
     public $js = [
-        YII_ENV_DEV ? 'vue.js' : 'vue.min.js',
+        YII_ENV_DEV ? 'vuetify.js' : 'vuetify.min.js',
+    ];
+    
+    public $css = [
+        YII_ENV_DEV ? 'vuetify.css' : 'vuetify.min.css',
     ];
 
     /**
      * @inheritdoc
      */
     public $jsOptions = [
-        'position' => View::POS_HEAD,
+        'position' => View::POS_END,
     ];
 }
