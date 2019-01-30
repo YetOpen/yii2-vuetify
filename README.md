@@ -1,12 +1,12 @@
 <p align="center">
-    <a href="https://vuejs.org/" target="_blank" rel="external">
+    <a href="//vuetifyjs.com" target="_blank" rel="external">
         <img src="https://cdn.vuetifyjs.com/images/logos/v-alt.svg" width="200" />
     </a>
-    <h1 align="center">Vue.js Extension for Yii2</h1>
+    <h1 align="center">Vuetify Extension for Yii2</h1>
     <br>
 </p>
 
-This is the <a href="https://vuejs.org/" target="_blank">Vuetify</a> extension for Yii2.
+This is the <a href="//vuetifyjs.com" target="_blank">Vuetify</a> extension for Yii2.
 
 # Installation
 
