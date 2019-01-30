@@ -5,7 +5,7 @@
  * @license https://github.com/antkaz/yii2-vue/blob/master/LICENSE
  */
 
-namespace antkaz\vue;
+namespace myaza\vuetify;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
