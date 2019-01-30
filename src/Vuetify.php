@@ -1,8 +1,9 @@
 <?php
 /**
- * @link https://github.com/antkaz/yii2-vue
+ * @link https://github.com/Vaxa/yii2-vuetify
  * @copyright Copyright (c) 2018 Anton Kazarinov
- * @license https://github.com/antkaz/yii2-vue/blob/master/LICENSE
+ * @forked Vlad Shashkov
+ * @license https://github.com/Vaxa/yii2-vuetify/blob/master/LICENSE
  */
 
 namespace myaza\vuetify;
