@@ -16,12 +16,12 @@ use yii\web\JsExpression;
 use yii\web\View;
 
 /**
- * Class Vue
+ * Class Vuetify
  *
- * @author Anton Kazarinov <askazarinov@gmail.com>
- * @package antkaz\vue
+ * @author Anton Kazarinov <askazarinov@gmail.com> and Vlad Shaskov
+ * @package vaxa\vuetify
  */
-class Vue extends Widget
+class Vuetify extends Widget
 {
     /**
      * @var array The data object for the Vue instance.
