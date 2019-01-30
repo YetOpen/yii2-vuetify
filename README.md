@@ -30,4 +30,22 @@ or add
 to the **require** section of your `composer.json` file.
 
 
+# Usage 
+
+php template:
+```
+<?php
+use antkaz\vue\VueAsset;
+VueAsset::register($this);
+use vaxa/vuetify/VuetifyAsset;
+VuetifyAsset::register($this);
+```
+
+twig template :
+```
+{{ use('antkaz/vue/VueAsset') }}
+{{ use('vaxa/vuetify/VuetifyAsset') }}
+{{ register_vue_asset() }}
+{{ register_vuetify_asset() }}
+```
 
