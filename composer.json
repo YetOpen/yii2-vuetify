@@ -20,6 +20,7 @@
   ],
   "require": {
     "yiisoft/yii2": "~2.0.14",
+    "antkaz/yii2-vue": "*"
     "npm-asset/vuetify": "1.4.4"
   },
   "repositories": [
