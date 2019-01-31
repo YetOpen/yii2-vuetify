@@ -35,6 +35,7 @@ class VuetifyAsset extends AssetBundle
     
     public $css = [
         YII_ENV_DEV ? 'vuetify.css' : 'vuetify.min.css',
+        'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons',
     ];
 
     /**
