@@ -23,7 +23,7 @@
     "npm-asset/vuetify": "~1.5"
   },
   "replace": {
-    "vaxa/yii2-vuetify"
+    "vaxa/yii2-vuetify": "*"
   },
   "repositories": [
     {
