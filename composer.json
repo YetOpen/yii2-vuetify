@@ -1,5 +1,5 @@
 {
-  "name": "vaxa/yii2-vuetify",
+  "name": "yetopen/yii2-vuetify",
   "description": "The Vuetify extension for the Yii framework",
   "homepage": "https://github.com/Vaxa/yii2-vuetify",
   "type": "yii2-extension",
@@ -20,7 +20,10 @@
   ],
   "require": {
     "yiisoft/yii2": "~2.0.14",
-    "npm-asset/vuetify": "1.4.4"
+    "npm-asset/vuetify": "~1.5"
+  },
+  "replace": {
+    "vaxa/yii2-vuetify"
   },
   "repositories": [
     {
